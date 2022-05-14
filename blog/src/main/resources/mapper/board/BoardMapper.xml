@@ -30,7 +30,7 @@
        	FROM
        		board
        	ORDER BY
-       		board_id	
+       		board_id DESC
     </select>
     
     <select id="selectBoardDetail" parameterType="long" resultType="BoardDto">
